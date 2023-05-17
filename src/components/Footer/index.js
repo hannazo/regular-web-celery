@@ -8,22 +8,22 @@ const Footer = () => (
         <ul className="social-icons">
             <li>
                 <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faFacebook} color="#565555" className="anchor-icon" />
+                    <FontAwesomeIcon icon={faFacebook} color="#687a89" className="anchor-icon" />
                 </a>
             </li>
             <li>
                 <a href="https://twitter.com" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faTwitter} color="#565555" className="anchor-icon" />
+                    <FontAwesomeIcon icon={faTwitter} color="#687a89" className="anchor-icon" />
                 </a>
             </li>
             <li>
                 <a href="https://instagram.com" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faInstagram} color="#565555" className="anchor-icon" />
+                    <FontAwesomeIcon icon={faInstagram} color="#687a89" className="anchor-icon" />
                 </a>
             </li>
             <li>
                 <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} color="#565555" className="anchor-icon" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#687a89" className="anchor-icon" />
                 </a>
             </li>
         </ul>

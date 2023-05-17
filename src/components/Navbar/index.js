@@ -15,7 +15,7 @@ const Navbar = () => (
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
                 <div className="icon-container">
-                    <FontAwesomeIcon icon={faHome} color="#565555" />
+                    <FontAwesomeIcon icon={faHome} color="#25282a" />
                 </div>
                 <div className="text-container">
                     <span>HOME</span>
@@ -23,7 +23,7 @@ const Navbar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" to="/about">
                 <div className="icon-container">
-                    <FontAwesomeIcon icon={faUser} color="#565555" />
+                    <FontAwesomeIcon icon={faUser} color="#25282a" />
                 </div>
                 <div className="text-container">
                     <span>ABOUT</span>
@@ -31,7 +31,7 @@ const Navbar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" to="/portfolio">
                 <div className="icon-container">
-                    <FontAwesomeIcon icon={faFolder} color="#565555" />
+                    <FontAwesomeIcon icon={faFolder} color="#25282a" />
                 </div>
                 <div className="text-container">
                     <span>PORTFOLIO</span>
@@ -39,7 +39,7 @@ const Navbar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
                 <div className="icon-container">
-                    <FontAwesomeIcon icon={faEnvelope} color="#565555" />
+                    <FontAwesomeIcon icon={faEnvelope} color="#25282a" />
                 </div>
                 <div className="text-container">
                     <span>CONTACT</span>
@@ -47,7 +47,7 @@ const Navbar = () => (
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="resume-link" to="/resume">
                 <div className="icon-container">
-                    <FontAwesomeIcon icon={faFileInvoice} color="#565555" />
+                    <FontAwesomeIcon icon={faFileInvoice} color="#25282a" />
                 </div>
                 <div className="text-container">
                     <span>RESUME</span>

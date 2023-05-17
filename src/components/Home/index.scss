@@ -8,7 +8,9 @@
         max-height: 90%;
         color: #c1c5ca;
         padding-left: 20px;
+        z-index: 1;
     }
+
     h1 {
         font-size: 53px;
         margin: 0;
@@ -69,4 +71,30 @@
         }
     }
 
+    .image-zone {
+        width: 400px;
+        height: 609px;
+        position: absolute;
+        top: 0;
+        right: 15%;
+        bottom: 0;
+        left: auto;
+        margin: auto;
+
+        svg {
+            width: 100%;
+            height: auto;
+            bottom: 0;
+        }
+
+        .home-image {
+            position: absolute;
+            top: auto;
+            right: auto;
+            bottom: auto;
+            left: 0;
+            margin: auto;
+            width: 100%;
+          }
+    }
 }

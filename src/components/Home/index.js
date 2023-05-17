@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import AnimatedLetters from '../AnimatedLetters';
+import Image from '../../assets/images/laptop.jpg';
 import './index.scss';
 
 const Home = () => {
@@ -12,9 +13,9 @@ const Home = () => {
 
     useEffect(() => {
         setTimeout(() => {
-          setLetterClass('text-animate-hover')
+            setLetterClass('text-animate-hover')
         }, 4000)
-      }, [])
+    }, [])
 
     return (
         <div className="container home-page">
@@ -41,7 +42,9 @@ const Home = () => {
                 </h1>
                 <h2>Frontend Developer / Freelancer</h2>
                 <Link to="contact" className="flat-button">CONTACT ME</Link>
-
+            </div>
+            <div className="image-zone">
+                <img src={Image} className="home-image" alt="Laptop" />
             </div>
         </div>
     );

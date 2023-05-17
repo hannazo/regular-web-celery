@@ -8,7 +8,7 @@ header {
     position: fixed;
     width: 100%;
     height: 120px;
-    background-color: orange;
+    background-color: #d7dbe0;
     top: 0;
     padding: 0 30px;
     display: flex;
@@ -23,7 +23,7 @@ header {
         img {
             display: block;
             margin: 10px auto;
-            width: 80px;
+            width: 100px;
             height: auto;
         }
     }
@@ -36,7 +36,7 @@ header {
 
         a {
             font-size: 26px;
-            color: #565555;
+            color: #25282a;
             display: block;
             line-height: 50px;
             text-decoration: none;
@@ -63,7 +63,7 @@ header {
             }
 
             &:hover {
-                color: #565555;
+                color: #25282a;
 
                 .icon-container {
                     display: none;
@@ -79,7 +79,7 @@ header {
 
         a.active {
             svg {
-                color: pink;
+                color: #687a89;
             }
         }
     }
