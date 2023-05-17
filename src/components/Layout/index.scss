@@ -10,25 +10,40 @@
     min-height: calc(100vh - 120px);
     width: 100%;
     position: relative;
-    background-color: lightcyan;
+    background-color: #151515;
 }
 
 .top-tags {
     bottom: auto;
-    top: 35px;
+    top: 5%;
 }
 
 .tags {
-    color: salmon;
+    color: #fff000;
     opacity: 0.6;
     position: absolute;
-    bottom: 35px;
-    left: 120px;
-    font-size: 1.6em;
+    bottom: 5%;
+    left: 15%;
+    font-size: 20px;
     line-height: 1.8;
     font-family: 'La Belle Aurore';
 }
 
 .bottom-tag-html {
     margin-left: -20px;
+}
+
+.container {
+    width: 100%;
+    will-change: contents;
+    height: 90%;
+    min-height: 566px;
+    position: absolute;
+    opacity: 0;
+    top: 10%;
+    margin: 0 auto;
+    z-index: 1;
+    transform-style: preserve-3d;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
 }
