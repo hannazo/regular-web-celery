@@ -1,0 +1,57 @@
+.about-page {
+    .text-zone {
+        position: absolute;
+        left: 15%;
+        right: 15%;
+        top: 40%;
+        transform: translateY(-50%);
+        color: #c1c5ca;
+        padding-left: 20px;
+        z-index: 1;
+
+        .title {
+            font-size: 22px;
+            margin: 0;
+            font-family: 'Coolvetica';
+            font-weight: 400;
+            letter-spacing: 3px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+
+            &::before {
+                content: '<h1>';
+                font-family: 'La Belle Aurore';
+                color: #fff000;
+                font-size: 20px;
+                opacity: 0.6;
+                position: absolute;
+                margin-top: -20px;
+                left: 20px;
+            }
+
+            &::after {
+                content: '</h1>';
+                font-family: 'La Belle Aurore';
+                color: #fff000;
+                font-size: 20px;
+                margin-top: 40px;
+                margin-left: -20px;
+                animation: fadeIn 1s 1.7s backwards;
+                opacity: 0.6;
+            }
+        }
+
+        .about-photo {
+            height: 250px;
+            border-radius: 15px;
+            float: right;
+            margin-left: 20px;
+        }
+
+        p {
+            line-height: 1.6;
+            font-size: 16px;
+            font-family: sans-serif;
+        }
+    }
+}
