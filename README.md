@@ -1,65 +1,66 @@
-# regular-web-celery
-React Portfolio
+# Portfolio
 
-## Getting Started with Create React App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
+## Description
+  
+A single-page application portfolio for a web developer built with React and deployed to GitHub Pages.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Deployed Application](https://hannazo.github.io/regular-web-celery/)
+  
+## Table of Contents
 
-## Available Scripts
+- [Webpage Preview](#webpage-preview)
+- [Installation](#installation)
+- [Technologies](#Technologies)
+- [Credits](#credits)
+- [License](#license)
+  
+## Webpage Preview
+  
+Home Page
 
-In the project directory, you can run:
+<img src='src/assets/images/screenshot-home.png'>
 
-### `npm test`
+About Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src='src/assets/images/screenshot-about.png'>
 
-### `npm run build`
+Contact Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<img src='src/assets/images/screenshot-contact.png'>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+  
+## Installation
+  
+To install necessary dependencies, run 'npm i' command:
+```
+npm i
+```
+To build your app, run 'npm run build' command:
+```
+npm run build
+```
+To deploy your app, run 'npm run deploy' command:
+```
+npm run deploy
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Technologies
+  
+* [React](https://react.dev/) 
+* [EmailJs](https://www.emailjs.com/)
+* [Fort Awesome](https://fortawesome.com/)
+* [Animate.css](https://animate.style/)
+* [Sass](https://sass-lang.com/)
 
-### `npm run eject`
+## Credits
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I've used the following resources: 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[React Project Tutorial](https://youtu.be/bmpI252DmiI)
+I followed this tutorial to initialise react app, install necessary npm packages, add animation to the text and set up emailjs for contact page.
+  
+## License
+    
+This project is licensed under the [MIT](https://opensource.org/licenses/MIT) license.
