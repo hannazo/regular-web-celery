@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/regular-web-celery/static/css/main.4add0fa0.css",
-    "main.js": "/regular-web-celery/static/js/main.496bead9.js",
+    "main.css": "/regular-web-celery/static/css/main.70354af0.css",
+    "main.js": "/regular-web-celery/static/js/main.d4f946da.js",
     "static/js/787.128fc6e9.chunk.js": "/regular-web-celery/static/js/787.128fc6e9.chunk.js",
+    "static/media/project-1.jpg": "/regular-web-celery/static/media/project-1.e72d92d87a7ad9e8049a.jpg",
     "static/media/woman-unsplash.jpg": "/regular-web-celery/static/media/woman-unsplash.f79dd7fbc551eba5e7fd.jpg",
+    "static/media/project-4.jpg": "/regular-web-celery/static/media/project-4.00fb6f36eb98156a9cf7.jpg",
+    "static/media/project-3.jpg": "/regular-web-celery/static/media/project-3.a392681941a8713ca8c1.jpg",
+    "static/media/project-5.jpg": "/regular-web-celery/static/media/project-5.4156bd338111da6aa557.jpg",
     "static/media/laptop.jpg": "/regular-web-celery/static/media/laptop.e19f668cf4f5827c7b0e.jpg",
+    "static/media/project-2.jpg": "/regular-web-celery/static/media/project-2.e33011dc7bf4ca305068.jpg",
     "static/media/helvetica-neu.ttf": "/regular-web-celery/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/regular-web-celery/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo.png": "/regular-web-celery/static/media/logo.57610d655ab638da289c.png",
     "static/media/CoolveticaRg-Regular.woff2": "/regular-web-celery/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/regular-web-celery/index.html",
-    "main.4add0fa0.css.map": "/regular-web-celery/static/css/main.4add0fa0.css.map",
-    "main.496bead9.js.map": "/regular-web-celery/static/js/main.496bead9.js.map",
+    "main.70354af0.css.map": "/regular-web-celery/static/css/main.70354af0.css.map",
+    "main.d4f946da.js.map": "/regular-web-celery/static/js/main.d4f946da.js.map",
     "787.128fc6e9.chunk.js.map": "/regular-web-celery/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4add0fa0.css",
-    "static/js/main.496bead9.js"
+    "static/css/main.70354af0.css",
+    "static/js/main.d4f946da.js"
   ]
 }
