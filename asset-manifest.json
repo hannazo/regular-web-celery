@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/regular-web-celery/static/css/main.4add0fa0.css",
-    "main.js": "/regular-web-celery/static/js/main.7731bdb3.js",
+    "main.js": "/regular-web-celery/static/js/main.496bead9.js",
     "static/js/787.128fc6e9.chunk.js": "/regular-web-celery/static/js/787.128fc6e9.chunk.js",
     "static/media/woman-unsplash.jpg": "/regular-web-celery/static/media/woman-unsplash.f79dd7fbc551eba5e7fd.jpg",
     "static/media/laptop.jpg": "/regular-web-celery/static/media/laptop.e19f668cf4f5827c7b0e.jpg",
@@ -11,11 +11,11 @@
     "static/media/CoolveticaRg-Regular.woff2": "/regular-web-celery/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/regular-web-celery/index.html",
     "main.4add0fa0.css.map": "/regular-web-celery/static/css/main.4add0fa0.css.map",
-    "main.7731bdb3.js.map": "/regular-web-celery/static/js/main.7731bdb3.js.map",
+    "main.496bead9.js.map": "/regular-web-celery/static/js/main.496bead9.js.map",
     "787.128fc6e9.chunk.js.map": "/regular-web-celery/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4add0fa0.css",
-    "static/js/main.7731bdb3.js"
+    "static/js/main.496bead9.js"
   ]
 }
