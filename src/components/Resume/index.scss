@@ -1,4 +1,4 @@
-.contact-page {
+.resume-page {
     min-height: calc(100vh - 290px);
     display: flex;
     flex-direction: column;
@@ -49,67 +49,68 @@
                 }
             }
 
-            .contact-form {
-                margin-left: 40px;
-                margin-right: 40px;
-                margin-bottom: 10px;
+            .resume {
+                display: flex;
+                flex-wrap: wrap;
+                animation: fadeIn 1s 1.7s backwards;
 
-                ul {
-                    padding: 0;
+                .section-left, .section-right {
+                    width: 100%; 
+                }
+
+                @media (min-width: 768px) { // Adjust breakpoint as needed
+                    .section-left, .section-right {
+                        width: 50%; // They each take up half the width on larger screens
+                    }
+                }
+
+                h2 {
+                    font-size: 22px;
                     margin: 0;
+                    font-family: 'Coolvetica';
+                    font-weight: 400;
+                    letter-spacing: 3px;
+                    margin-left: 40px;
+                    margin-bottom: 20px;
+                    color: #fff000;
+                    opacity: 0.6;
+                }
+
+                .top-offset {
+                    margin-top: 20px;
+                }
+
+                p, ul {
+                    line-height: 1.6;
+                    font-size: 16px;
+                    font-family: sans-serif;
+                    margin-left: 40px;
+                    margin-bottom: 10px;
 
                     li {
-                        padding: 0;
-                        margin: 0;
-                        list-style: none;
-                        margin-bottom: 10px;
-                        opacity: 0;
-                        overflow: hidden;
-                        display: block;
-                        clear: both;
-                        position: relative;
-                        animation: fadeInUp 2s 2s;
-                        animation-fill-mode: forwards;
-                    }
-
-                    li.half {
-                        width: 49%;
-                        margin-left: 2%;
-                        float: left;
-                        clear: none;
-
-                        &:first-child {
-                            margin-left: 0;
-                        }
+                        margin-left: 20px;
                     }
                 }
 
-                input[type='text'],
-                input[type='email'] {
-                    width: 100%;
-                    border: 0;
-                    background: #d7dbe0;
-                    height: 50px;
-                    font-size: 16px;
-                    color: #25282a;
-                    padding: 0 20px;
-                    box-sizing: border-box;
+                .name {
+                    font-size: 18px;
+                    font-weight: bold;
                 }
 
-                textarea {
-                    width: 100%;
-                    border: 0;
-                    background: #d7dbe0;
-                    height: 50px;
-                    font-size: 16px;
-                    color: #25282a;
-                    padding: 20px;
-                    box-sizing: border-box;
-                    min-height: 150px;
+                .date {
+                    font-size: 12px;
+                    opacity: 0.8;
+                    font-style: italic;
                 }
 
-                .flat-button {
-                    color: #fff000;
+                .experience {
+                    margin-top: 30px;
+                }
+
+            }
+
+            .flat-button {
+                color: #fff000;
                     font-size: 12px;
                     font-weight: 600;
                     letter-spacing: 3px;
@@ -121,13 +122,20 @@
                     float: left;
                     animation: fadeIn 1s 1.8s backwards;
                     white-space: nowrap; 
-                    margin-top: 10px;
+                    margin-top: 20px;
+                    margin-left: 40px;
+                    margin-bottom: 20px;
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        text-transform: uppercase;
+                    }
 
                     &:hover {
                         background-color: #ffd700;
                         color: #25282a;
                     }
-                }
             }
         }
     }
