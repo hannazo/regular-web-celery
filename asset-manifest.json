@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "/regular-web-celery/static/css/main.98ec6191.css",
-    "main.js": "/regular-web-celery/static/js/main.c74fece2.js",
+    "main.js": "/regular-web-celery/static/js/main.16854a7f.js",
     "static/js/787.128fc6e9.chunk.js": "/regular-web-celery/static/js/787.128fc6e9.chunk.js",
     "static/media/project-2.png": "/regular-web-celery/static/media/project-2.0b0de324963cd6f8dd72.png",
+    "static/media/project-6.png": "/regular-web-celery/static/media/project-6.f92eb3087b112769bfd4.png",
     "static/media/project-1.png": "/regular-web-celery/static/media/project-1.b6271fbe401d0fb61d54.png",
     "static/media/woman-unsplash.jpg": "/regular-web-celery/static/media/woman-unsplash.f79dd7fbc551eba5e7fd.jpg",
     "static/media/project-3.png": "/regular-web-celery/static/media/project-3.3090b6f21348dcf2f544.png",
     "static/media/hero.png": "/regular-web-celery/static/media/hero.d89556b54ea4240e662f.png",
     "static/media/project-4.png": "/regular-web-celery/static/media/project-4.3f90efa8275cead3d905.png",
     "static/media/project-5.png": "/regular-web-celery/static/media/project-5.d76fae50d978d73b53fc.png",
-    "static/media/project-6.png": "/regular-web-celery/static/media/project-6.6551e3b5e14de3f17d48.png",
     "static/media/helvetica-neu.ttf": "/regular-web-celery/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
     "static/media/LaBelleAurore.woff2": "/regular-web-celery/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/logo.png": "/regular-web-celery/static/media/logo.57610d655ab638da289c.png",
     "static/media/CoolveticaRg-Regular.woff2": "/regular-web-celery/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/regular-web-celery/index.html",
     "main.98ec6191.css.map": "/regular-web-celery/static/css/main.98ec6191.css.map",
-    "main.c74fece2.js.map": "/regular-web-celery/static/js/main.c74fece2.js.map",
+    "main.16854a7f.js.map": "/regular-web-celery/static/js/main.16854a7f.js.map",
     "787.128fc6e9.chunk.js.map": "/regular-web-celery/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.98ec6191.css",
-    "static/js/main.c74fece2.js"
+    "static/js/main.16854a7f.js"
   ]
 }
