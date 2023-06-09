@@ -9,12 +9,12 @@ import project6 from '../../assets/images/project-6.png';
 const Portfolio = () => {
 
     const projects = [
+        {title: "Happily Ever Prints", image: project6, link: "https://radiant-island-05643.herokuapp.com/"},
         {title: "Book Search Engine", image: project1, link: "https://vast-tundra-70816.herokuapp.com/"},
         {title: "Feed The Foodie", image: project2, link: "https://sarasg89.github.io/feed-the-foodie/"},
         {title: "Tech Blog", image: project3, link: "https://dry-journey-24079.herokuapp.com/"},
         {title: "Weather Dashboard", image: project4, link: "https://hannazo.github.io/weather-or-not/"},
-        {title: "Work Day Scheduler", image: project5, link: "https://hannazo.github.io/stay-busy/"},
-        {title: "Note Taker", image: project6, link: "https://boiling-fjord-26165.herokuapp.com/"}
+        {title: "Work Day Scheduler", image: project5, link: "https://hannazo.github.io/stay-busy/"}
     ];
 
     return (
